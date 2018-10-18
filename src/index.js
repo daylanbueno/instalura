@@ -9,8 +9,6 @@ import {Router,Route} from 'react-router';
 import createBrowserHistory from 'history/createBrowserHistory'
 const newHistory = createBrowserHistory();
 
-
-
 ReactDOM.render(
   (
     <Router history={newHistory} >
